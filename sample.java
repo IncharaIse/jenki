@@ -2,12 +2,7 @@ import java.util.Scanner;
 
 public class sample {
     public static void main(String[] args) {
-        // Create a scanner object to take input from the user
-        Scanner scanner = new Scanner(System.in);
-
-        // Prompt user to enter a number
-        System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+        int number = 5;
 
         // Check if the number is odd or even
         if (number % 2 == 0) {
